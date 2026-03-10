@@ -28,14 +28,57 @@
                         <h2> User Profile </h2>
                         <div class="settings-menu-wrapper">
                             <ul>
-                                <li>Theme Settings</li>
-                                <li>Billing Options</li>
-                                <li>Account Information</li>
+                                <li><a href="#theme">Theme Settings</li>
+                                <li><a href="#billing">Billing Options</li>
+                                <li><a href="#info">Account Information</li>
                             </ul>
                         </div>
-                        <div class="settings-wrapper">
-
+                        <div class="settings-wrapper" id="theme">
+                            <h3> Theme Settings </h3>
+                            
                         </div>
+                        <div class="billing-wrapper" id="billing">
+                            <h3> Billing Options </h3>
+                            <div class="input-group">
+                                <input type="text" id="card-info" placeholder="**** **** **** ****">
+                                <label for="card-info"> Card Information </label>
+                            </div>
+                            <div class="input-group">
+                                <input type="text" id="expiry" placeholder="MM/YYYY">
+                                <label for="expiry"> Expiry Date </label>
+                            </div>
+                            <div class="input-group">
+                                <input type="text" id="cvc" placeholder="***">
+                                <label for="cvc"> CVC </label>
+                            </div>
+                        </div>
+
+                        <div class=info-wrapper id="info">
+                            <h3> Account Information </h3>
+                            <div class="input-group">
+                                <input type="text" id="first-name">
+                                <label for="first-name"> First Name </label>
+                            </div>
+                            <div class="input-group">
+                                <input type="text" id="last-name">
+                                <label for="last-name"> Last Name </label>
+                            </div>
+                            <div class="input-group">
+                                <input type="tel" id="contact-num">
+                                <label for="contact-num"> Contact Number </label>
+                            </div>
+                            <div class="input-group">
+                                <input type="text" id="address">
+                                <label for="address"> Address </label>
+                            </div>
+                            <div class="input-group">
+                                <input type="email" id="email">
+                                <label for="email"> Email Address </label>
+                            </div>
+                            <div class="input-group">
+                                <input type="password" id="password">
+                                <label for="password"> Password </label>
+                            </div>
                     </div>
                 </article>
             </section>
